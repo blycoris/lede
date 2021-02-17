@@ -67,35 +67,21 @@ jobs:
           # 在 cat >> .config <<EOF 到 EOF 之间粘贴你的编译配置, 需注意缩进关系
           # 例如:
           cat >> .config <<EOF
-          CONFIG_TARGET_x86=y
-          CONFIG_TARGET_x86_64=y
-          CONFIG_TARGET_x86_64_Generic=y
-          CONFIG_PACKAGE_vim-fuller=y
           CONFIG_TARGET_IMAGES_GZIP=y
           CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
-          CONFIG_PACKAGE_libcap=y
-          CONFIG_PACKAGE_libcap-bin=y
-          CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
-          CONFIG_PACKAGE_libcurl=y
-          CONFIG_PACKAGE_libdb47=y
-          CONFIG_PACKAGE_libruby=y
-          CONFIG_PACKAGE_libxml2=y
-          CONFIG_PACKAGE_libyaml=y
-          CONFIG_PACKAGE_ruby=y
-          CONFIG_PACKAGE_ruby-bigdecimal=y
-          CONFIG_PACKAGE_ruby-date=y
-          CONFIG_PACKAGE_ruby-dbm=y
-          CONFIG_PACKAGE_ruby-digest=y
-          CONFIG_PACKAGE_ruby-enc=y
-          CONFIG_PACKAGE_ruby-pstore=y
-          CONFIG_PACKAGE_ruby-psych=y
-          CONFIG_PACKAGE_ruby-stringio=y
-          CONFIG_PACKAGE_ruby-strscan=y
-          CONFIG_PACKAGE_ruby-yaml=y
+          CONFIG_TARGET_x86=y
+          CONFIG_TARGET_x86_64=y
+          CONFIG_TARGET_x86_64_Generic=y
+          CONFIG_KERNEL_KEXEC=y
+          CONFIG_OPENSSL_PREFER_CHACHA_OVER_GCM=y
+          CONFIG_boost-compile-visibility-hidden=y
+          CONFIG_boost-runtime-shared=y
+          CONFIG_boost-static-and-shared-libs=y
+          CONFIG_boost-variant-release=y
           CONFIG_PACKAGE_cgroupfs-mount=y
           CONFIG_PACKAGE_containerd=y
-          CONFIG_PACKAGE_luci-lib-docker=y
+          CONFIG_PACKAGE_docker-ce=y
           CONFIG_PACKAGE_kmod-br-netfilter=y
           CONFIG_PACKAGE_kmod-dax=y
           CONFIG_PACKAGE_kmod-dm=y
