@@ -95,7 +95,7 @@ jobs:
           CONFIG_PACKAGE_ruby-yaml=y
           CONFIG_PACKAGE_cgroupfs-mount=y
           CONFIG_PACKAGE_containerd=y
-          CONFIG_PACKAGE_docker-ce=y
+          CONFIG_PACKAGE_luci-lib-docker=y
           CONFIG_PACKAGE_kmod-br-netfilter=y
           CONFIG_PACKAGE_kmod-dax=y
           CONFIG_PACKAGE_kmod-dm=y
