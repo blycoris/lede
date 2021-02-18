@@ -84,7 +84,7 @@ jobs:
           CONFIG_PACKAGE_curl=y
           CONFIG_PACKAGE_iptables-mod-extra=y
           CONFIG_PACKAGE_kmod-ipt-extra=y
-          CONFIG_PACKAGE_iptables-mod-tproxy
+          CONFIG_PACKAGE_iptables-mod-tproxy=y
           CONFIG_PACKAGE_libcap=y
           CONFIG_PACKAGE_libcap-bin=y
           CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
