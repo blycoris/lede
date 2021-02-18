@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-docker
+name: OpenWrt-CI-docker-ce
 
 on:
   push:
@@ -126,7 +126,7 @@ jobs:
           CONFIG_PACKAGE_mount-utils=y
           CONFIG_PACKAGE_runc=y
           CONFIG_PACKAGE_tini=y
-          CONFIG_PACKAGE_luci-lib-docker=y
+          CONFIG_PACKAGE_docker-ce=y
           EOF
           #
           # ===============================================================
