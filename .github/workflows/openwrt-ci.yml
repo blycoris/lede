@@ -84,6 +84,7 @@ jobs:
           CONFIG_PACKAGE_curl=y
           CONFIG_PACKAGE_iptables-mod-extra=y
           CONFIG_PACKAGE_kmod-ipt-extra=y
+          CONFIG_PACKAGE_iptables-mod-tproxy
           CONFIG_PACKAGE_libcap=y
           CONFIG_PACKAGE_libcap-bin=y
           CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
@@ -92,7 +93,6 @@ jobs:
           CONFIG_PACKAGE_libruby=y
           CONFIG_PACKAGE_libxml2=y
           CONFIG_PACKAGE_libyaml=y
-          CONFIG_PACKAGE_luci-app-openclash=y
           CONFIG_PACKAGE_ruby=y
           CONFIG_PACKAGE_ruby-bigdecimal=y
           CONFIG_PACKAGE_ruby-date=y
@@ -106,7 +106,6 @@ jobs:
           CONFIG_PACKAGE_ruby-yaml=y
           CONFIG_PACKAGE_cgroupfs-mount=y
           CONFIG_PACKAGE_containerd=y
-          CONFIG_PACKAGE_docker-ce=y
           CONFIG_PACKAGE_kmod-br-netfilter=y
           CONFIG_PACKAGE_kmod-dax=y
           CONFIG_PACKAGE_kmod-dm=y
