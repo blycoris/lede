@@ -124,6 +124,7 @@ jobs:
           CONFIG_PACKAGE_luci-lib-docker=y
           CONFIG_PACKAGE_luci-lib-jsonc=y
           CONFIG_PACKAGE_luci-app-docker=y
+          CONFIG_PACKAGE_docker-ce=y
           CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
           CONFIG_PACKAGE_mount-utils=y
           CONFIG_PACKAGE_runc=y
